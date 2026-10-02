@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { Sparkles, Shield, FileText, Layers, Code2 } from "lucide-react";
+import { Sparkles, Shield, FileText, Github, Layers } from "lucide-react";
 
 export default function Header() {
   return (
@@ -75,7 +75,7 @@ export default function Header() {
             className="inline-flex items-center space-x-1.5 text-xs font-medium text-slate-400 hover:text-white transition-colors"
             aria-label="GitHub Repository Placeholder"
           >
-            <Code2 className="w-4 h-4" />
+            <Github className="w-4 h-4" />
             <span className="hidden sm:inline">GitHub</span>
           </a>
         </div>

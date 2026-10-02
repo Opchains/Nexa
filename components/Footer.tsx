@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { Sparkles, CheckCircle } from "lucide-react";
+import { Sparkles, Github, FileText, CheckCircle } from "lucide-react";
 
 export default function Footer() {
   return (
