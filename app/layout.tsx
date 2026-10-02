@@ -4,6 +4,9 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Nexa",
   description: "AI Workspace Assistant",
+  icons: {
+    icon: "/icon.svg",
+  },
 };
 
 export default function RootLayout({

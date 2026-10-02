@@ -18,30 +18,35 @@ export default function ArchitectureShowcase() {
     {
       name: "Product Strategy & Brief",
       file: "docs/product-brief.md",
+      href: "https://github.com/Opchains/Nexa/blob/main/docs/product-brief.md",
       desc: "Vision, target user segments, JTBD 1-6, AI capabilities, and scope boundaries.",
       tag: "Strategy",
     },
     {
       name: "User Interaction Flows",
       file: "docs/user-flows.md",
+      href: "https://github.com/Opchains/Nexa/blob/main/docs/user-flows.md",
       desc: "Workspace, chat Q&A, review loop, file upload validation, and failure recovery.",
       tag: "UX Flow",
     },
     {
       name: "System Architecture",
       file: "docs/system-architecture.md",
+      href: "https://github.com/Opchains/Nexa/blob/main/docs/system-architecture.md",
       desc: "Browser vs Server vs Model boundaries, Trust Model, and Vercel AI SDK integration.",
       tag: "Architecture",
     },
     {
       name: "Acceptance Criteria",
       file: "docs/acceptance-criteria.md",
+      href: "https://github.com/Opchains/Nexa/blob/main/docs/acceptance-criteria.md",
       desc: "Accuracy targets (≥90%), latency limits, WCAG AA compliance, and safety standards.",
       tag: "Quality",
     },
     {
       name: "Risk Register Matrix",
       file: "docs/risk-register.md",
+      href: "https://github.com/Opchains/Nexa/blob/main/docs/risk-register.md",
       desc: "27 classified risks (Critical, High, Medium) with likelihood, impact, and mitigations.",
       tag: "Security",
     },
@@ -67,8 +72,11 @@ export default function ArchitectureShowcase() {
         {/* Documentation Cards Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
           {docsList.map((doc, idx) => (
-            <div
+            <a
               key={idx}
+              href={doc.href}
+              target="_blank"
+              rel="noopener noreferrer"
               className="glass-card p-5 rounded-2xl border border-slate-800 flex flex-col justify-between hover:border-indigo-500/40 transition-all"
             >
               <div>
@@ -91,7 +99,7 @@ export default function ArchitectureShowcase() {
                 <span>View Complete Doc</span>
                 <ArrowRight className="w-3.5 h-3.5" />
               </div>
-            </div>
+            </a>
           ))}
         </div>
 

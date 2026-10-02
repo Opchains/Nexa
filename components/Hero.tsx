@@ -26,7 +26,7 @@ export default function Hero() {
 
         {/* Subtitle */}
         <p className="text-base sm:text-lg md:text-xl text-slate-300 max-w-3xl mx-auto font-normal leading-relaxed mb-8">
-          Nexa is a focused AI workspace assistant built to summarize documents, explain difficult concepts, rewrite text, and extract actionable decisions — with strict human oversight.
+          Nexa is a focused AI workspace assistant built to summarize documents, explain difficult concepts, rewrite text, and extract actionable decisions, with strict human oversight.
         </p>
 
         {/* Hero CTAs */}

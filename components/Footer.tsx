@@ -9,8 +9,8 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-6">
         {/* Brand Info */}
         <div className="flex items-center space-x-3">
-          <div className="w-8 h-8 rounded-lg bg-indigo-600 flex items-center justify-center text-white">
-            <Sparkles className="w-4 h-4" />
+          <div className="w-8 h-8 rounded-lg overflow-hidden border border-slate-700 bg-slate-950">
+            <img src="/icon.svg" alt="Nexa logo" className="w-full h-full object-cover" />
           </div>
           <div>
             <span className="font-bold text-slate-100 text-sm">Nexa</span>

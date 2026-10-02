@@ -9,8 +9,8 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
         {/* Brand Logo & Title */}
         <div className="flex items-center space-x-3">
-          <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-indigo-600 to-violet-500 flex items-center justify-center shadow-lg shadow-indigo-500/20">
-            <Sparkles className="w-5 h-5 text-white" />
+          <div className="w-9 h-9 rounded-xl overflow-hidden border border-slate-700/80 bg-slate-950 shadow-lg shadow-indigo-500/20">
+            <img src="/icon.svg" alt="Nexa logo" className="w-full h-full object-cover" />
           </div>
           <div>
             <div className="flex items-center space-x-2">
@@ -69,11 +69,11 @@ export default function Header() {
             <span>Docs</span>
           </a>
           <a
-            href="https://github.com"
+            href="https://github.com/Opchains/Nexa"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center space-x-1.5 text-xs font-medium text-slate-400 hover:text-white transition-colors"
-            aria-label="GitHub Repository Placeholder"
+            aria-label="GitHub Repository"
           >
             <Github className="w-4 h-4" />
             <span className="hidden sm:inline">GitHub</span>
