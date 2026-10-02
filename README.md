@@ -97,7 +97,7 @@ Nexa utilizes a decoupled 3-tier architecture:
 
 ## Documentation Links
 
-All architectural and product planning specifications are available in the [`docs/`](file:///c:/Users/HAMIDAT/Desktop/Xotic%20Queens%20Beauty/Nexa/docs) directory:
+All architectural and product planning specifications are available in the [`docs/`](https://github.com/Opchains/Nexa/tree/main/docs) directory:
 
 - [Product Strategy & Brief](file:///c:/Users/HAMIDAT/Desktop/Xotic%20Queens%20Beauty/Nexa/docs/product-brief.md)
 - [User Interaction & System Flows](file:///c:/Users/HAMIDAT/Desktop/Xotic%20Queens%20Beauty/Nexa/docs/user-flows.md)
